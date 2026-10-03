@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.vercel/
+.env
+.env.*
+npm-debug.log*
+
+idea.md
+gemini_suggestion.md
+Claude_suggestion.md
+chatgpt_suggestion.md
+
+tests/
+
+.vercel
+.env*

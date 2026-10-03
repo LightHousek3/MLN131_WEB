@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "functions": {
+    "api/chat.js": {
+      "includeFiles": "textbooks/**/*.txt",
+      "maxDuration": 60
+    },
+    "api/health.js": {
+      "includeFiles": "textbooks/**/*.txt",
+      "maxDuration": 60
+    }
+  }
+}
